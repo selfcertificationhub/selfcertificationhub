@@ -8,7 +8,7 @@ HTTPS encrypts data transmitted between a browser and a server, safeguarding sen
 
 #### 2. Generating a Self-Signed Certificate
 
-Using our tool, you can generate a self-signed certificate and private key binding with your specified IP.
+Using our [tool](https://selfcertificationhub.github.io/selfcertificationhub), you can generate a self-signed certificate and private key binding with your specified IP.
 
 #### 3. Installing Nginx
 
@@ -21,13 +21,10 @@ Navigate to Nginx's configuration file, usually located at `/etc/nginx/nginx.con
 server {
     listen 443 ssl;
     server_name your_IP;
-
     ssl_certificate /path/to/your/server.crt;
     ssl_certificate_key /path/to/your/server.key;
-
     # Other SSL settings (e.g., protocols, ciphers, etc.) can be added here
     # ...
-
     location / {
         # Additional settings for handling requests
         # ...
@@ -38,7 +35,7 @@ server {
 #### 5. Testing the HTTPS Configuration
 
 Restart Nginx and verify the configuration:
-```bash
+```Bash
 sudo systemctl restart nginx
 ```
 Access `https://your_IP` in a web browser to check if the secure connection is established.
@@ -59,4 +56,4 @@ server {
 Implementing a self-signed HTTPS certificate in Nginx is a fundamental step towards securing web traffic. However, for production environments, consider obtaining a certificate from a trusted CA for broader trust and compatibility across various devices and browsers.
 
 ## Quick reference
-[nginx certificate POC repository](https://github.com/selfcertificationhub/nginx-certificate)
+[Nginx certificate POC repository](https://github.com/selfcertificationhub/nginx-certificate)
