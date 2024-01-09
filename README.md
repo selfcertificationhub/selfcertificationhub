@@ -3,5 +3,5 @@ Create Your Secure Online Presence with Our Self-Certified HTTPS Certificate Gen
 [Homepage](https://selfcertificationhub.github.io/selfcertificationhub/)
 
 # Project Roadmap
-- Support downloading certificate files to the local machine.
-- Support asking questions to ChatGPT.
+- [x] Support downloading certificate files to the local machine.
+- [x] Support asking questions to ChatGPT.
