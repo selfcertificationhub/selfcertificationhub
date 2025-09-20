@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkangular_app2=self.webpackChunkangular_app2||[]).push([[556],{1556:(l,t,n)=>{n.r(t),n.d(t,{routes:()=>h});const h=[{path:"",loadComponent:()=>n.e(543).then(n.bind(n,1543)).then(o=>o.LoginComponent),children:[{path:"",pathMatch:"full",loadComponent:()=>n.e(433).then(n.bind(n,8433)).then(o=>o.LoginFormComponent)}]}]}}]);
